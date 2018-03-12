@@ -1,0 +1,30 @@
+header{
+    height: 10vh;
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+}
+#main{
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+}
+#main > div{
+    display: inline-block;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+}
+#main > div > div{    
+    background-color: green;
+    width: 100px;
+}
+#kategorien > div{
+    display: inline-block;
+    height: 10px;
+    background-color: burlywood;
+}
+fieldset{
+    width: 80%;
+    margin: auto;
+}
